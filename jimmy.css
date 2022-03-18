@@ -23,3 +23,8 @@ margin:10px 500px;
   border:solid;
   border-radius:0.5rem
 }
+.profile{
+  flex-direction:column;
+  align-content: center;
+  justify-content: center;
+}

@@ -1,7 +1,7 @@
 
 const search = document.getElementById('search')
-const gitHub = new GitHub()
-const ui = new Ui()
+let gitHub = new GitHub()
+let ui = new Ui()
 
 search.addEventListener('keyup',e =>{
   const userText = e.target.value
