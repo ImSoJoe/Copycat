@@ -14,7 +14,7 @@ class GitHub{
    async getusers(user){
   
   const profileResponse = await fetch(`https://api.github.com/users/${user}
-  `)
+  `, this.config)
   const getProfileData = await profileResponse.json()
   
     return{
