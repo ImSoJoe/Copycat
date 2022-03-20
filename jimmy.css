@@ -1,0 +1,34 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar{
+  color:white
+}
+
+.content-head{
+display:flex;
+flex-direction: column;
+align-content:center;
+justify-content: center;
+text-align: center;
+
+}
+
+.search-bar{
+justify-content: center;
+margin:10px 500px;
+-webkit-appearance: none;
+
+}
+.content{
+  margin:3rem 1rem;
+  border-width: 2px;
+  border:solid;
+  border-radius:0.5rem
+}
+.profile{
+  flex-direction:column;
+  align-content: center;
+  justify-content: center;
+}
