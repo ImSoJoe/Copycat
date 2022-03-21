@@ -7,9 +7,10 @@ search.addEventListener('keyup',e =>{
   const userText = e.target.value
   if(userText != ''){
     gitHub.getusers(userText).then(data =>{
-
-      ui.displayProfile(data)
-    })
+      return ui.displayProfile(data)
+    
+    }
+      )
    }
   
   
