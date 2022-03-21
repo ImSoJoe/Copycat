@@ -7,11 +7,7 @@ class GitHub{
   this.config = {
   headers:{
     Authorization:`token ${apiToken.token}`
-  }
-
   }}
-  //this get the users
-   async getusers(user){
   
   const profileResponse = await fetch(`https://api.github.com/users/${user}
   `, this.config)
