@@ -8,9 +8,9 @@ class GitHub{
   headers:{
     Authorization:`token ${apiToken.token}`
   }}
-  
+} async getusers(user){
   const profileResponse = await fetch(`https://api.github.com/users/${user}
-  `, this.config)
+  `,this.config)
   const getProfileData = await profileResponse.json()
   
     return{

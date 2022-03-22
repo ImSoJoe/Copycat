@@ -7,7 +7,7 @@ search.addEventListener('keyup',e =>{
   const userText = e.target.value
   if(userText != ''){
     gitHub.getusers(userText).then(data =>{
-      return ui.displayProfile(data)
+      ui.displayProfile(data)
     
     }
       )
